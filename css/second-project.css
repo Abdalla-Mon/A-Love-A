@@ -1376,7 +1376,7 @@ start-of-email**/
 .email-in {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 10px;
 }
 .email a {
@@ -1385,7 +1385,7 @@ start-of-email**/
 }
 .email button {
   background-color: #19c8fa;
-  height: 100%;
+  height: auto;
   border: white solid 1px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1624,8 +1624,4 @@ start-of-footer**/
 .ll {
   padding: 20px;
 }
-@media(max-width:560px){
-  .email button {
-    margin-right:-100px
-  }
-}
+
