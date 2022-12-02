@@ -1400,8 +1400,17 @@ start-of-email**/
   display: flex;
   border: white solid 1px;
   padding: 10px;
-  padding-right: 120px;
+  padding-right: 50px;
 }
+@media (min-width: 992px) {
+  .email-photo {
+    display: flex;
+    border: white solid 1px;
+    padding: 10px;
+    padding-right: 120px;
+  }
+}
+
 .email {
   background-image: url(../Images/subscribe.jpg);
   background-size: cover;
